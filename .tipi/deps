@@ -1,0 +1,6 @@
+{
+    "x": [
+        "/single_include**",
+        "/programs"
+    ]
+}

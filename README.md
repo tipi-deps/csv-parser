@@ -86,6 +86,16 @@ target_link_libraries(<your program> csv)
 
 ```
 
+### tipi.build instructions
+
+`vincentlaucsb/csv-parser` can be easily used in [tipi.build](https://tipi.build) projects simply by adding the following entry to your `.tipi/deps`:
+
+```json
+{
+    "vincentlaucsb/csv-parser": { }
+}
+```
+
 ## Features & Examples
 ### Reading an Arbitrarily Large File (with Iterators)
 With this library, you can easily stream over a large file without reading its entirety into memory.
